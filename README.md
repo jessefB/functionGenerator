@@ -6,7 +6,7 @@ I wrote this program as a refresher for C++, as I haven't used it for quite some
 
 I like to code on paper first, lining out all the functions I will need. The logical next step would be to create all the prototypes I need. From there, it is just a lot of repetative work to copy and paste the prototypes and add brackets for definition. This program is designed to do the repetative work.
 
-[Software Demo Video](http://youtube.link.goes.here)
+[Software Demo Video](https://youtu.be/PbmRwGAq1z4)
 
 # Development Environment
 
