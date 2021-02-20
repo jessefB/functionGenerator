@@ -120,9 +120,6 @@ bool functions(const Path &path)
 
    vector<Function> funcs;
 
-   cout << "Here: " << path.getStd() << endl;
-   cout << num << endl;
-
    // Some basic error checking
    if (num == 0)
       return false;
@@ -232,7 +229,6 @@ int readFunctions(const Path &path, vector<Function> &funcs)
       // Simple as pass the input line and let the class do the work
       Function temp;
       temp.build(input);
-      cout << input << endl;
       funcs.push_back(temp);
 
       number++;
@@ -328,12 +324,10 @@ int writeFunctions(const Path &path, vector<Function> funcs, int num)
    // Number to store the number of funtions written
    int numWritten = 0;
 
-   cout << "Here trying to write!" << funcs.size() << endl;
 
    // Loop through each function
    for (int i = 0; i < num; i++)
    {
-      cout << funcs[i].getName() << endl;
       // Move the next function if the current one exists
       while (funcs[i].doesExist())
          i++;
